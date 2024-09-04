@@ -8,12 +8,9 @@ const SendMoney = () => {
         <h1 className="font-bold pt-6 text-2xl text-center">Send Money</h1>
         <div className="pt-10 ">
           <div className="flex pl-6 content-start gap-3 items-center  ">
-            <img
-              src="https://images.unsplash.com/photo-1586289883499-f11d28aaf52f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
-              className="w-10 h-10 mt-6 rounded-full"
-            />
-            {/* <div className="bg-green-500 text-lg m-6 text-white px-3 py-2 rounded-full">A</div> */}
+            <div className="mt-6 w-10 h-10 bg-green-500 rounded-full text-white text-xl flex justify-center items-center">
+              A
+            </div>
             <h2 className="font-bold pt-6 text-lg text-center">
               Friend's Name
             </h2>
